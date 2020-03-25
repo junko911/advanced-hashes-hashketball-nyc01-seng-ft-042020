@@ -133,7 +133,7 @@ def most_points_scored
 end
 
 def winning_team
-  team = ""
+  team_name = ""
   max = 0
   
   game_hash.each_value do |team|
@@ -142,7 +142,7 @@ def winning_team
     
     if total > max
       max = total
-      team = team[:team_name]
+      team_name = team[:team_name]
     end
     
   end
