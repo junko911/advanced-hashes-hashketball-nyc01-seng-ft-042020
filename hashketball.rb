@@ -151,6 +151,17 @@ def winning_team
 end
 
 def player_with_longest_name
+  longest_name = ""
+  
+  game_hash.each_value do |team|
+    
+    name = team[:players].max {| 
+    
+    
+    
+    
+    
+  end
   
 end
 
