@@ -138,7 +138,7 @@ def winning_team
   
   game_hash.each_value do |team|
     
-    max =  team[:players].reduce { |total, point| total + point } 
+    max =  team[:players].reduce(0) { |total, point| total + point["points"] } 
     pp max
     max
   end
