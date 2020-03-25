@@ -140,6 +140,7 @@ def winning_team
     
     max =  team[:players].reduce { |total, point| total + point } 
     pp max
+    max
   end
 
 
