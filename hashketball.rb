@@ -145,14 +145,9 @@ def winning_team
       team = team[:team_name]
     end
     
-    team
-
   end
 
-
-
+  team
 end
-
-winning_team
 
 
