@@ -147,7 +147,7 @@ def winning_team
     
   end
 
-  team
+  team_name
 end
 
 
