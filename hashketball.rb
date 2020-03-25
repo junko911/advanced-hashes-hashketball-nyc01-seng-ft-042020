@@ -172,5 +172,15 @@ end
 
 def long_name_steals_a_ton?
   
+   team[:players].each do |player|
+      
+      if player["points"]  > max
+        name = player["player_name"] 
+        max = player["points"]
+      end
+      
+    end
+    
+  end
 end
 
