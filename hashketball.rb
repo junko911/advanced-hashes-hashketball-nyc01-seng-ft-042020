@@ -132,6 +132,27 @@ def most_points_scored
   name
 end
 
+def winning_team
+  team = ""
+  max = 0
+  
+  game_hash.each_value do |team|
+    
+    team[:players].each do |player|
+      
+      if player["shoe"]  > max
+        name = player["player_name"] 
+        max = player["shoe"]
+      end
+      
+    end
+    
+  end
+
+
+
+end
+
 
 
 
