@@ -159,11 +159,12 @@ def player_with_longest_name
       a["player_name"].length <=> b["player_name"].length
     end
     
-    
-    
-    
+    if name.length > longest_name.length
+      longest_name = name
+    end
     
   end
   
+  longest_name
 end
 
